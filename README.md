@@ -114,21 +114,19 @@ PUT Command - Creating (Inserting) Record : - # IML (JPDB Index Manipulation Lan
 PUT : Insert single record in the database
 
 
-Talend > post
-Base url : http://api.login2explore.com:5577
-End-point url : /api/iml (mentioned in command when different)
+)
 
 BODY : 
 {
-    "token": "90932512|-31949274757731994|90949158",
+    "token": "7768961498|-31949274757731994|7768961498",
     "cmd": "PUT",
     "dbName": "Employee",
     "rel": "Emp-Rel",
     "jsonStr": {
         "id": "1",
         "name": "Soniya",
-        "email": "soniya@gmail.com",
-        "mobileno": "9967825671"
+        "email": "jkhlkgjg@gmail.com",
+        "mobileno": "7768961498"
     }
 }
 
@@ -145,15 +143,15 @@ Dashboard > Visualize > Jsondb > select Database and Relation
 New row - 
 
 {
-    "token": "90932512|-31949274757731994|90949158",
+    "token": "7768961498|-31949274757731994|7768961498",
     "cmd": "PUT",
     "dbName": "Employee",
     "rel": "Emp-Rel",
     "jsonStr": {
         "id": "2",
-        "name": "aniket",
-        "email": "aniket@gmail.com",
-        "mobileno": "8582887792"
+        "name": "pranay",
+        "email": "pranay@492@gmail.com",
+        "mobileno": "7768961498"
     }
 }
 
@@ -163,8 +161,8 @@ Total 1 rows are inserted, Added 0 columns as New Index Columns.","status":200}
 
 Dashboard > Visualize > Jsondb > select Database and Relation
 
-1	2/24/2023, 8:21:16 PM	soniya@gmail.com	1	9967825671	Soniya
-2	2/24/2023, 8:24:57 PM	aniket@gmail.com	2	8582887792	aniket
+1	2/24/2023, 8:21:16 PM	pranay@gmail.com	1	7768961498	Soniya
+2	2/24/2023, 8:24:57 PM	ghgigjg@gmail.com	2	7768961498	aniket
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 GET Command - Retrieving Record : - # IRL (JPDB Index Retrieval Language)
@@ -181,24 +179,24 @@ GET_BY_KEY : Retrieve single record by json data
 
 Talend > Save as > Name : GET >
 
-POST | http://api.login2explore.com:5577/api/irl
 
-"token": "90932512|-31949274757731994|90949158",
+
+"token": "7768961498|-31949274757731994|7768961498",
 
 {
-    "token": "90932512|-31949274757731994|90949158",
+    "token": "7768961498|-31949274757731994|7768961498",
     "dbName": "Employee",
     "cmd": "GET",
     "rel": "Emp-Rel",
     "jsonStr": {
-        "name": "aniket"
+        "name": "pranay"
     }
 
 }
 
 
 {"data"
-:"{\"name\":\"aniket\",\"id\":\"2\",\"mobileno\":\"8582887792\",\"email\":\"aniket@gmail.com\"}"
+:"{\"name\":\"pranay\",\"id\":\"2\",\"mobileno\":\"7768961498\",\"email\":\"pranay@492@gmail.com\"}"
 ,"message":"DATA RETRIEVED FROM PI","status":200}
 
 
@@ -207,7 +205,7 @@ UPDATE Command - Update a record : - # IML (JPDB Index Manipulation Language)
 
 UPDATE : Update multiple records in the database or add a new column in a record
 
-POST | http://api.login2explore.com:5577/api/iml
+
 
 {
     "token": "90932512|-31949274757731994|90949158",
@@ -232,14 +230,13 @@ POST | http://api.login2explore.com:5577/api/iml
 {"processReqType":0,"dbUpdateFlag":true},"message":"Success","status":200}
 
 
-1	2/24/2023, 8:21:16 PM	raju@gmail.com	1	9967825671	raju
-2	2/24/2023, 8:24:57 PM	aniket@gmail.com	2	66666666	aniket
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 REMOVE Command - Remove a record : - # IML (JPDB Index Manipulation Language) - To insert, update and delete Json data.
 
 REMOVE : Remove records from the database
 
-POST | http://api.login2explore.com:5577/api/iml
+
 
 {
     "token": "90932512|-31949274757731994|90949158",
@@ -255,30 +252,14 @@ POST | http://api.login2explore.com:5577/api/iml
 {"processReqType":0,"dbUpdateFlag":true},"message":"Success","status":200}
 
 
-2	2/24/2023, 8:24:57 PM	aniket@gmail.com	2	66666666	aniket
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Test - Understanding JPDB
 
-Test your knowledge 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Attempts allowed: 5
 
-Time limit: 5 mins
 
-Grading method: Highest grade
 
-Summary of your previous attempts
-Attempt	State	Grade / 5.00	Review	Feedback
-1	Finished
-Submitted Friday, 24 February 2023, 9:20 PM
-5.00		
-Congratulations!! Excellent Performance! Keep it Up.
 
-Highest grade: 5.00 / 5.00.
-Overall feedback
-Congratulations!! Excellent Performance! Keep it Up.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Ajax Concepts - A Desktop application feel on web-pages ; -
 
 AJAX - Asynchronous JavaScript And XML.
@@ -289,17 +270,7 @@ https://drive.google.com/file/d/1e4VN4PAec-Y1iFsj0BN5j0pM7mfed0VQ/view?usp=shari
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Creating a Web Project in NetBeans : -
-![Screenshot (901)](https://user-images.githubusercontent.com/84792843/221233551-732712fd-daef-490f-87fe-107390152150.png)
-https://drive.google.com/file/d/1e9u2xj7IY7M2W5v7btigQDT7CofBLdlj/view?usp=sharing
 
-CODE - 
-
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html lang="en">
   <head>
     <title>Bootstrap Example</title>
@@ -455,14 +426,7 @@ and open the template in the editor.
 Saving data in JPDB from HTML form :-
 ![image](https://user-images.githubusercontent.com/84792843/221236356-22fa3e5d-9e1d-4b6e-bead-e28ee931f113.png)
 
-CODE --
 
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html lang="en">
   <head>
     <title>Bootstrap Example</title>
@@ -633,14 +597,9 @@ and open the template in the editor.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 JPDB using jpdb common js - A Javascript library to make it even easy and fast for developers :-
 
-Code - 
 
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
+
 <html lang="en">
   <head>
     <title>Bootstrap Example</title>
@@ -776,32 +735,11 @@ and open the template in the editor.
 </html>
 
 
-2	2/24/2023, 10:38:48 PM	payel@gmail.com	61	payel jain
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Test - Serverless JPDB
-Test your knowledge 
 
-Attempts allowed: 5
 
-Time limit: 5 mins
-
-Grading method: Highest grade
-
-Summary of your previous attempts
-Attempt	State	Grade / 5.00	Review	Feedback
-1	Finished
-Submitted Friday, 24 February 2023, 10:45 PM
-5.00		
-Congratulations!! Excellent Performance! Keep it Up.
-
-Highest grade: 5.00 / 5.00.
-Overall feedback
-Congratulations!! Excellent Performance! Keep it Up.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Useful Commands to Practice
-JPDB Documentation Page: http://login2explore.com/jpdb/docs.html#jpdb-command-request 
 
 Practice following commands on the above JsonPowerDB documentation link:
 
@@ -819,13 +757,7 @@ GET_BY_RECORD
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Development of Employee Form with Control Buttons
 
-CODE :-
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html lang="en">
   <head>
     <title>Employee Form using JPDB</title>
@@ -978,18 +910,15 @@ and open the template in the editor.
 ![image](https://user-images.githubusercontent.com/84792843/221276871-9de54244-d0c2-4e88-aca5-d6802567fa5e.png)
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Micro Project Work
+
 
 Student Enrollment Form
 
-CODE - 
+
 
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+
 -->
 <html lang="en">
   <head>

@@ -1261,24 +1261,3 @@ and open the template in the editor.
   </body>
 </html>
 ![image](https://user-images.githubusercontent.com/84792843/221289611-acb5c361-c3f7-4221-957e-5a7f9c489426.png)
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Published Micro Project Code to Github
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-More Commands to Practice
-JPDB Documentation Page: http://login2explore.com/jpdb/docs.html#jpdb-command-request
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Test - Interactive JPDB
-Test your knowledge 
-
-Attempts allowed: 5
-
-Time limit: 5 mins
-
-Grading method: Highest grade
-
-Highest grade: 3.00 / 4.00.
-Overall feedback
-Congratulations!! Excellent Performance! Keep it Up.
-
